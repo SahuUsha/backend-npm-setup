@@ -1,5 +1,5 @@
 {
-  "name": "@ushasahu/us-kick-npm-package",
+  "name": "@ushasahu/us-kick",
   "version": "1.0.1",
   "description": "Nodejs Backend starter kit",
   "main": "index.js",
@@ -11,6 +11,7 @@
   "scripts": {
      "dev": "nodemon server.js",
      "start": "node server.js",
+     "postinstall": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["backend", "starter", "nodejs", "express", "cli"],
