@@ -1,20 +1,25 @@
 {
   "name": "@ushasahu/us-kick",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Nodejs Backend starter kit",
   "main": "index.js",
   "type": "module",
-
   "bin": {
     "mycmd": "./index.js"
   },
   "scripts": {
-     "dev": "nodemon server.js",
-     "start": "node server.js",
-     "postinstall": "node index.js",
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "postinstall": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["backend", "starter", "nodejs", "express", "cli"],
+  "keywords": [
+    "backend",
+    "starter",
+    "nodejs",
+    "express",
+    "cli"
+  ],
   "author": "Usha Sahu",
   "license": "ISC",
   "dependencies": {
