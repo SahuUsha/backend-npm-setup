@@ -1,0 +1,29 @@
+{
+  "name": "@ushasahu/us-kick-npm-package",
+  "version": "1.0.1",
+  "description": "Nodejs Backend starter kit",
+  "main": "index.js",
+  "type": "module",
+
+  "bin": {
+    "mycmd": "./index.js"
+  },
+  "scripts": {
+     "dev": "nodemon server.js",
+     "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["backend", "starter", "nodejs", "express", "cli"],
+  "author": "Usha Sahu",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2",
+    "zod": "^4.1.8"
+  }
+}
