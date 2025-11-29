@@ -33,12 +33,12 @@ Running `mycmd` will generate:
 
 Sample output:
 
-```
+
 ✅ .prettierrc created!
 ✅ .gitignore created!
 ☑️ server.js created!
 🚀 Backend starter kit is ready! 😉 all the best from us-kick-npm-package
-```
+
 
 ---
 
